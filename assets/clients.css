@@ -1,0 +1,109 @@
+.clients {
+  background-image: url(images/clients-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clients-container {
+  padding: 95px 150px 90px 150px;
+}
+
+.clients__list {
+  display: flex;
+}
+
+.clients__list-item {
+  text-align: center;
+  width: 33.33%;
+  margin-right: 50px;
+}
+
+.clients__list-item:nth-child(3) {
+  margin: 0;
+}
+
+.client__photo {
+  width: 76px;
+  height: 76px;
+  background-color: #4e4e5e;
+  border: 2px solid #1d1e24;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.client__name,
+.client__description {
+  color: #fff;
+}
+
+.client__name {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.client__post {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff6d6d;
+  margin: 10px 0 35px 0;
+}
+
+.client__description {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.clients__icons {
+  margin-top: 105px;
+}
+
+.icons__content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon__item {
+}
+
+.icon__item,
+.icon__item img {
+}
+
+@media screen and (max-width: 1150px) {
+  .icons__content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .icons__content {
+    width: 100%;
+  }
+
+  .icon__item img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .clients__list {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .clients__list-item {
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  .clients__list-item:nth-child(2),
+  .clients__list-item:nth-child(3) {
+    margin-top: 50px;
+  }
+}

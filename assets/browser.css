@@ -1,0 +1,47 @@
+.browser {
+  background-color: #f6f5f3;
+}
+
+.browser-container {
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.browser__title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #ff6d6d;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.browser__subtitle {
+  font-size: 40px;
+  font-weight: 500;
+
+  width: 70%;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.browser__slash {
+  color: #ff6d6d;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 15px;
+}
+
+.browser__description {
+  font-size: 16px;
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+  line-height: 28px;
+  margin: 0 auto 105px;
+}
+
+@media screen and (max-width: 900px) {
+  .browser__img img {
+    width: 100%;
+  }
+}

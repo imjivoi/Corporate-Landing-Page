@@ -1,0 +1,174 @@
+footer {
+  background-color: #fff;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer__content {
+  padding: 80px 0 95px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__address {
+  width: 80%;
+}
+
+.footer__support,
+.footer__about {
+  width: 60%;
+}
+
+.footer__support,
+.footer__about,
+.footer__newsletter {
+  margin-top: 5px;
+}
+
+.support__title,
+.about__title,
+.newsletter__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #282828;
+  margin-bottom: 17px;
+}
+
+.footer__address,
+.footer__support > ul,
+.footer__about > ul {
+  line-height: 28px;
+}
+
+li {
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+ul > li:hover a {
+  text-decoration: underline;
+}
+
+.footer__subscribe > form > input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  padding-left: 25px;
+}
+
+.footer__subscribe form {
+  margin: 0 0 20px 0;
+}
+
+.footer__subscribe > form > input {
+  background-color: #f6f6f6;
+  margin: 0;
+  width: 266px;
+  padding: 0;
+}
+
+.footer__btn {
+  height: 49px;
+  width: 52px;
+  position: absolute;
+  margin-left: 240px;
+  box-shadow: 0 0px 3px grey;
+}
+
+.footer__social {
+  text-align: center;
+}
+
+.footer__social img {
+  margin: 0 4%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer__subscribe {
+    width: 83%;
+  }
+
+  .footer__img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__newsletter {
+    width: ;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "footer__logo footer__logo . ." "footer__support footer__about . ." "footer__newsletter footer__newsletter . .";
+    padding: 80px 0 95px 50px;
+    text-align: center;
+  }
+
+  .footer__logo {
+    grid-area: footer__logo;
+  }
+
+  .footer__support {
+    grid-area: footer__support;
+  }
+
+  .footer__about {
+    grid-area: footer__about;
+  }
+
+  .footer__newsletter {
+    grid-area: footer__newsletter;
+  }
+
+  .footer__address {
+    margin: 0;
+  }
+  .footer__address,
+  .footer__support,
+  .footer__about,
+  .footer__newsletter {
+    width: 100%;
+  }
+
+  .footer__subscribe {
+    width: 100%;
+  }
+
+  .footer__subscribe > form > input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer__btn {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer__content li {
+    margin-bottom: 10px;
+  }
+
+  .footer__content a,
+  .footer__address {
+    font-size: 20px;
+  }
+
+  .support__title,
+  .about__title,
+  .newsletter__title {
+    font-size: 30px;
+  }
+}

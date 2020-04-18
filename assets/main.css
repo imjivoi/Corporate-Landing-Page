@@ -1,0 +1,34 @@
+@import "header.css";
+@import "design.css";
+@import "features.css";
+@import "description.css";
+@import "clients.css";
+@import "browser.css";
+@import "try-now.css";
+@import "footer.css";
+
+* {
+  font-family: "Exo", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #282828;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(images/header-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wrapper {
+  max-width: 1440px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 9px 16px grey;
+}

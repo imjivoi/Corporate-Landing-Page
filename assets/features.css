@@ -106,3 +106,9 @@
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .features-container {
+    padding: 50px 30px 25px;
+  }
+}

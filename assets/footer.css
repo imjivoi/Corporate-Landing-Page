@@ -161,14 +161,15 @@ ul > li:hover a {
     margin-bottom: 10px;
   }
 
-  .footer__content a,
-  .footer__address {
-    font-size: 20px;
-  }
-
   .support__title,
   .about__title,
   .newsletter__title {
-    font-size: 30px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    padding-left: 30px;
   }
 }

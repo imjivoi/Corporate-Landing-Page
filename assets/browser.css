@@ -45,3 +45,13 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .browser__description {
+    width: 80%;
+  }
+
+  .browser__subtitle {
+    width: 90%;
+  }
+}
